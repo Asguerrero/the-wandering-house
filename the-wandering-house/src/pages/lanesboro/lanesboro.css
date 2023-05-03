@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,700&family=Oswald&display=swap');
+
+
+.lanesboro-container{
+    width: 100%;
+    height: 100vh;
+}
+.lanesboro-main-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* background-color: black; */
+    
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-lanes.png);
+    background-repeat: round;
+    background-size: 25rem auto; */
+}
+
+.lanesboro-vertical-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-container-sub{
+    height: 95%;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+}
+
+.lanesboro-horizontal-container{
+    display: grid;
+    grid-template-rows: 37% 26% 37%;
+}
+
+.lanesboro-horizontal-container .first-div{
+    display: flex;
+}
+
+.lanesboro-horizontal-container .third-div{
+    display: flex;
+}
+
+.rectangle-6{
+    border-radius: 50%;
+    width: 11rem !important;
+    height: 11rem ;
+}
+
+.rectangle-2{
+    margin-top: 15%;
+}
+
+.rectangle-3{
+    margin-bottom: 10%;
+}
+
+.rectangle-7{
+    margin-left: 40%;
+}
+
+.rectangle-6{
+    margin-right: 30%;
+}
+
+.rectangle-3{
+    border-radius: 40% 0 0 40%;
+}
+
+.rectangle-9{
+    margin-bottom: 20%;
+}
+
+.rectangle-11{
+    margin-bottom: 10%;
+}
+
+.rectangle-4{
+    border-radius: 25% 25% 25% 0;
+}
+
+.lanesboro-rectangle{
+    border: black 3px solid;
+}
+
+.title-div{
+    background: rgb(59,196,172);
+    background: linear-gradient(0deg, rgba(59,196,172,1) 0%, rgba(191,217,210,1) 100%);
+    width: 90%;
+    border-radius: 25px;
+    border: black solid 2px;
+    margin: 0;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.title-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-text{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #054370;
+    letter-spacing: 3px;
+    font-size: 250%;
+    margin: 0;
+    text-align: center;
+}
+
+.lanesboro-second-panel-main-container{
+    display: grid;
+    grid-template-columns: 10% 20% 31% 31% 8% ;
+
+}
+
+.second-panel-first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.second-panel-first-div .first-div-sub{
+    height: 70%;
+    display: grid;
+    grid-template-rows: 55% 45%;
+    justify-items: center;
+
+}
+
+.second-panel-second-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rectangle-13{
+    margin-right: 2.5rem;
+}
+
+.rectangle-23{
+    margin-right: 2.5rem;
+}
+
+.second-panel-third-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-div-sub{
+    height: 70%;
+    display: grid;
+    grid-template-rows: 40% 30% 30%;
+
+}
+.rectangle-19-sub-div{
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+}
+
+.rectangle-14{
+    margin-right: 5rem;
+}
+
+.rectangle-24{
+    margin-right: 5rem;
+}
+
+.rectangle-18-sub-div{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.arrows{
+    color: #E7683B;
+    font-size: 7rem;
+    transition:0.4s;
+}
+
+.arrow-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.arrows:hover {
+    transform: scale(1.1); 
+}
+
+.arrow-back{
+    margin-left: 2.4rem;
+}
+
+.arrow-forward{
+    margin-right: 2rem;
+}
+
+
+
+.lanesboro-background{
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-image{
+   
+    background-image: url('https://main-page-images-quilt.s3.amazonaws.com/top-image.jpg');
+    height: 33vh;
+    background-repeat: round;
+    background-size: 30rem auto;
+}
+
+
+.middle-image{
+    background-image: url('https://main-page-images-quilt.s3.amazonaws.com/middle-image.jpg');
+    height: 34vh;
+    background-repeat: round;
+    background-size: 30rem auto;
+}
+
+.rectangle-14{
+    border-radius: 0 0 30px 30px ;
+}
+
+.lanesboro-third-panel-main-container{
+    display: grid;
+    grid-template-columns: 10% 15% 48% 27%;
+    height: inherit;
+}
+
+.third-panel-second-div{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.third-panel-first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-panel-second-div-first-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.third-panel-second-div-second-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.third-panel-third-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rectangle-17{
+    border-radius: 0 0 50px 50px;
+}
+
+.third-panel-title{
+    background: rgb(59,196,172);
+    background: linear-gradient(0deg, rgba(59,196,172,1) 0%, rgba(191,217,210,1) 100%);
+    height: 4rem;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+
+}
+
+
+.top{
+    margin-left: 5rem;
+}
+.bottom{
+    margin-top: 2rem;
+   margin-left: 25%;
+    
+}
+
+.third-panel-second-div-third-container{
+    display: flex;
+    flex-direction: column;
+}
+.third-panel-title h3{
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #054370;
+
+}
+
+.rectangle-21{
+    border-radius: 50%;
+}
+
+.rectangle-18{
+    border: none;
+}
+
+.rectangle-phone-18{
+    border: none;
+}
+
+.rectangle-phone-22{
+    border: none;
+}
+.rectangle-22{
+    border: none;
+}
+
+.rectangle-25{
+    border: none;
+}
+
+.rectangle-phone-25{
+    border: none;
+}
+
+
+.rectangle-20{
+    border: none;
+}
+
+.rectangle-phone-20{
+    border: none;
+}
+
+
+.phone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.phone-sub-container{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.phone-title{
+ font-size: 1rem;
+ text-align: center;
+
+}
+
+.arrow-div-left{
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.link-container{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 15%;
+
+}
+
+@media only screen and (max-width: 700px) {
+.title-div{
+    width: 97%;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0px;
+}
+   
+}

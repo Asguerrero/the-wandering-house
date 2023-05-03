@@ -2,7 +2,7 @@ import React from 'react';
 
 import './pop-up.style.css';
 
-export const PopUp = ({ image_url, audio_url, age, statement, translation, embroiderer, main_text, main_font, onClick}) => (
+export const PopUp = ({ age, statement, translation, embroiderer, main_text, main_font, onClick, id, quilt}) => (
   
   <div className='pop-up-div' onClick={onClick}>
      
@@ -12,7 +12,10 @@ export const PopUp = ({ image_url, audio_url, age, statement, translation, embro
 
           <img
             alt='rectangle'
-            src={`https://drive.google.com/uc?export=view&id=${image_url}`}
+            src={quilt === "northfield" ? 
+            `https://northfield-images-low-quality.s3.amazonaws.com/${id}.jpg` :
+            `https://lanesboro-images-low-quality.s3.amazonaws.com/${id}.jpg`}
+            
             style={{height: '100%'}}
             className='pop-up-img'
           />
@@ -20,15 +23,24 @@ export const PopUp = ({ image_url, audio_url, age, statement, translation, embro
           </div>
           <p style={{fontWeight: 'bold'}}>Embroiderer: {embroiderer}</p>
           <audio controls="controls" style={{width: '90%'}} 
-              src={`https://docs.google.com/uc?export=download&id=${audio_url}`}>
+              src={quilt === "northfield" ? 
+              `https://northfield-audio.s3.amazonaws.com/${id}.wav` :
+              `https://lanesboro-audio.s3.amazonaws.com/${id}.wav`}>
           </audio>
           <p><i>{`At the time of the recording in 2019 the speaker was ${age} years old`}</i></p>
+          {console.log(age)}
         </div>
     </div>
 
     <div className='pop-up-container-right'>
         <div className='main-text' style={{ fontFamily: `${main_font}`}}><h2>{main_text}</h2></div>
-        <div className='translation' style={{ fontFamily: `${main_font}`}}><h4>{`${translation}`}</h4></div>
+
+        {translation === undefined ?
+        null
+        :
+        <div className='translation' style={{ fontFamily: `${main_font}`}}> <h4>{`${translation}`}</h4> </div>
+        }
+       
 
         { statement === undefined ?
          null 
