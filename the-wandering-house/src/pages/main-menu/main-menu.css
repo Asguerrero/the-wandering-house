@@ -1,6 +1,6 @@
 .main-menu-page-container{
     height: 100vh;
-    background: #151B26;
+    background: #fff;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background:#151B26;
+    background:#fff;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -68,14 +68,15 @@
 }
 
 .main-page-title {
-  color: white;
+  color: #405950;
   font-size: 2.5rem;
   font-family: Oswald;
   text-align: center;
 }
 
 .main-page-text {
-  color: white;
+  font-family: Open Sans,Arial,sans-serif;
+  color: #666;;
   /* background-color: lightcoral; */
   text-align: center;
   max-height: 25%;
@@ -128,9 +129,9 @@ scrollbar-width: none;
 
 .home-page-pics {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 32% 32% 32%;
   justify-items: center;
-  grid-gap: 1rem;
+  grid-gap: 1.8%;
   margin-top: 2rem;
 }
 
@@ -144,10 +145,24 @@ scrollbar-width: none;
 .hyperlink{
     color: #BF3C1F;
 }
+.img-botton-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.main-page-text{
+  text-align: justify;
+}
 @media only screen and (max-width: 700px) {
 
 .home-page-container{
     width: 80%;
   }
+
+.home-page-pics{
+ 
+  display: block;
+
+}
 }

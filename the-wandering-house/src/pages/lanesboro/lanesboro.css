@@ -187,6 +187,8 @@
     transition:0.4s;
 }
 
+
+
 .arrow-div{
     display: flex;
     justify-content: center;
@@ -206,8 +208,6 @@
     margin-right: 2rem;
 }
 
-
-
 .lanesboro-background{
     height: 100vh;
     z-index: -1;
@@ -219,7 +219,6 @@
 }
 
 .top-image{
-   
     background-image: url('https://main-page-images-quilt.s3.amazonaws.com/top-image.jpg');
     height: 33vh;
     background-repeat: round;

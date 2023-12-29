@@ -6,7 +6,16 @@
     width: 70%;
     display: grid;
     grid-template-columns: 50% 50%;
-    /* padding: 1.5rem; */
+   
+}
+
+.pop-up-div-only-audio{
+    background-color: white;
+    height: 75%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
 }
 
 .pop-up-container-left{
@@ -43,6 +52,7 @@
 
 .pop-up-statement-text{
     font-family: 'Open Sans';
+    font-size: 0.95rem;
 }
 
 .pop-up-by-embroiderer-text{
@@ -52,19 +62,120 @@
 
 }
 
+.emborider-info-text{
+    width:87%;
+}
+
 .main-text {
-    font-size: 1.1em;
+    font-size: 1rem;
+}
+
+.redwing-title{
+    font-size: 1.3rem;
+}
+
+.redwing-title-image-statement{
+    font-size: 1.1rem;
+    margin-top: 10%;
+}
+ .redwing-title h2{
+    margin-top: 10%;
+ }
+
+ .redwing-translation-image-statement {
+    color:maroon;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+ 
+.redwing-translation {
+    color:maroon;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .translation {
     color:maroon;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1.1rem;
 }
 
+.embroiderer-name{
+    margin-top: 0rem;
+    font-weight: bold;
+}
+
+.first-pop-up-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.second-pop-up-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+
+}
+
+.only-audio-pop-up-container-left {
+    padding: 0rem;
+    margin-top: 10%;
+}
+
+.only-audio-pop-up-container-right {
+    padding-top: 0rem;
+    padding-right: 4.5rem;
+    padding-left: 0.2rem;
+}
+
+.only-audio-pop-up-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vh;
+}
+
+.personalized-only-audio-pop-up-flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+}
+
+
+.title-image-statement {
+    font-size: 1.1rem;
+}
+
+.translation-image-statement{
+    font-size: 1.1rem;
+}
+.redwing-pop-up-flex-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.rw-personalized-first-pop-up-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* height: 100%; */
+}
+
+.rw-personalized{
+    justify-content: center;
+}
+
+.personalized-title{
+    margin-top: 0%;
+}
 @media only screen and (max-width: 700px) {
     .pop-up-div{
-        height: 90%;
+        height: 83%;
         width: 70%;
         display: flex;
         flex-direction: column;

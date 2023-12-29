@@ -1,5 +1,5 @@
 import React  from 'react';
-import Rectangle from '../rectangle/rectangle.component.jsx'
+import Rectangle from '../../rectangle/rectangle.component.jsx'
 import { Link } from "react-router-dom";
 
 

@@ -333,6 +333,8 @@ color: #1F638C;
   text-align: center;
 
 }
+
+
 .before-icon{
   font-size: 60px;
   color: #BF3C1F;
@@ -345,6 +347,37 @@ color: #1F638C;
 }
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 48;
+}
+
+.test{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-test{
+  width: 18%;
+}
+.arepa{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+audio::-webkit-media-controls-play-button {
+  background-color: #bab8b777;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #9d9b9b77;
 }
 
 
@@ -375,5 +408,7 @@ color: #1F638C;
   grid-template-rows: 50% 50%;
   margin-bottom: 3rem;
 }
+
+
 
 }

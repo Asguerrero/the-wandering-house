@@ -2,10 +2,11 @@ import React, {Component} from 'react';
 import PopUp from '../../components/pop-up/pop-up.component.jsx'
 import '../../App.css';
 import './lanesboro.css';
-import { FirstPanel } from '../../components/panels/first-panel';
-import { SecondPanel } from '../../components/panels/second-panel';
-import { ThirdPanel } from '../../components/panels/third-panel';
-import { PhonePanel } from '../../components/panels/phone-panel';
+import { FirstPanel } from '../../components/panels/lanesboro-panels/first-panel.jsx';
+import { SecondPanel } from '../../components/panels/lanesboro-panels/second-panel.jsx';
+import { ThirdPanel } from '../../components/panels/lanesboro-panels/third-panel.jsx';
+import { PhonePanel } from '../../components/panels/lanesboro-panels/phone-panel.jsx';
+
 
 class LanesboroQuilt extends Component {
     constructor(props) {
@@ -28,9 +29,8 @@ class LanesboroQuilt extends Component {
 
     componentDidMount() {
         this.updateWindowDimensions();
-        //this.getPictures();
         window.addEventListener('resize', this.updateWindowDimensions);
-      }
+    }
       
     componentWillUnmount() {
     window.removeEventListener('resize', this.updateWindowDimensions);
@@ -69,15 +69,16 @@ class LanesboroQuilt extends Component {
     previousPanel(){
         this.setState({ quiltPanel: this.state.quiltPanel - 1 });
     }
+
      
 
-      getPopUpInfo(id){
+    getPopUpInfo(id){
 
         let temp_dict = 0
         fetch(`https://api.airtable.com/v0/appjPLcxTlXQZZfMa/tblABLhHwNW3ewyQf?fields%5B%5D=ID&fields%5B%5D=Embroiderer&fields%5B%5D=Tittle&fields%5B%5D=Statement&fields%5B%5D=Translation&fields%5B%5D=Age&filterByFormula=ID%3D${id}`, {
             method: 'GET',
             headers: {
-            'Authorization': 'Bearer keyFiXILZhl7sQLsn'
+            'Authorization': 'Bearer patRF4X7N5tJ6LjhF.7305d5e0fccd093c57f4c2271ca5a00cf89c9124066c9861f0b4e74a1be6c73a'
             }
         })
         .then(response => response.json())
@@ -136,7 +137,7 @@ render() {
                         <div className='middle-image'></div>
                         <div className='top-image'></div>  
                     </div>
-                    <PhonePanel rectangleArray ={this.state.rectangleArray} activePopUp={this.activePopUp}/>
+                    <PhonePanel rectangleArray = {this.state.rectangleArray} activePopUp={this.activePopUp}/>
 
                     {this.state.showPopUp === true ? 
                     <div className="pop-up-container" onClick={this.hidePopUp}>

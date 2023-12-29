@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap');
+
+
+.rw-main-div{
+    display:  grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+.redwing-first-panel-welcome-sign{
+    background-image: url(https://main-page-images-quilt.s3.amazonaws.com/redwing-welcome-sign.png);
+    background-repeat: repeat;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:6%;
+    width: 60%;
+    height: 40%;
+}
+
+.i-know-img{
+    width: 50%;
+    height: fit-content;
+
+}
+.flex{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.rw-first-panel-first-div{
+    display: flex;
+    margin-left: 1rem;
+    padding-top: 3%;
+}
+
+.rw-first-panel-second-div{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 3%; 
+    margin-right: 7%;
+    margin-top: -62%;
+}
+.rw-home-icon{
+    color:white;
+    text-align: center;
+    font-size: 500%;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
+    transition:0.4s;
+}
+
+
+.rw-home-icon-div{
+    background-color: #131339;
+    display: flex;
+}
+
+.rw-home-icon-div-first-panel{
+    background-color: #131339;
+}
+
+.rw-next-arrow-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #131339;
+    align-items: center;
+}
+
+.rw-arrow-back-div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #131339;
+    align-items: center;
+}
+
+
+.rw-background{
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-2.jpg); */
+    /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-backgorund-3.jpg'); */
+    /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-background-4.jpg'); */
+    /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-background--2.jpg'); */
+    background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-5.jpg);
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-6.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-7.jpg); */
+    background-repeat: round;
+    background-size: 9rem auto;
+    padding: 1rem;
+}
+
+.rw-quilt-container{
+    height: 100vh;
+    overflow-y: scroll;
+    
+}
+
+.rw-quilt-sub-container{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.first-panel-first-div{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 20%;
+
+}
+
+.redwing-first-panel-main-div{
+    display: grid;
+    grid-template-columns: 18% 71% 11%;
+    height: 100vh;
+    width: 100%;
+}
+
+.rw-arrows{
+    color: white;
+    font-size: 600%;
+    transition:0.4s;
+}
+
+.rw-arrows:hover {
+    transform: scale(1.1); 
+}
+
+.rw-home-icon:hover {
+    transform: scale(1.1); 
+}
+
+.first-panel-first-sub-div{
+   
+    display: flex;
+    justify-content: center;
+}
+
+.red-wing-first-panel-second-column{
+    height: 50vh;
+}
+
+.red-wing-first-panel-second-main-div{
+    height: 80%;
+    display: flex;
+}
+
+.rw-second-panel-first-div{
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    margin-left: 3%;
+    margin-right: 4%;
+    margin-top: -147%;
+}
+.rw-second-panel-second-div{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.rw-first-panel-third-div{
+    display: flex;
+}
+
+.rw-second-panel-first-div-sub-div{
+    display: flex;
+}
+
+.rw-rectangle-21{
+    margin-right: 20%;
+}
+
+.rw-rectangle-38{
+    margin-top: 25%;
+    margin-right: 10%;
+}
+
+.rw-rectangle-32{
+    margin-top: 80%;
+    margin-right: 30%;
+}
+
+.rw-rectangle-15{
+    margin-left: 20%;
+}
+
+.rw-rectangle-40{
+    margin-left: 47%;
+}
+
+.rw-rectangle-54{
+    margin-left: 110%;
+    margin-top: 10%;
+}
+
+.rw-rectangle-44{
+    margin-left: 73%;
+    margin-top: 3%;
+}
+
+.rw-rectangle-45{
+    margin-left: 15%;
+}
+
+.rw-rectangle-36{
+    margin-left: 15%;
+}
+
+.rw-rectangle-53{
+   margin-bottom:  50%;
+   margin-right:  20%;
+}
+
+ .rw-rectangle-20{
+    margin-left:  80%;
+ }
+
+ .rw-rectangle-49{
+    margin-left:  80%;
+ }
+
+.rw-rectangle-55{
+    margin-left:  30%;
+}
+
+.rw-rectangle-42{
+    margin-top:  30%;
+   
+}
+
+.rw-rectangle-51{
+    margin-right:  16%;
+}
+
+.rw-rectangle-48{
+    margin-right:  35%;
+    margin-top: 7%;
+}
+
+
+.rw-rectangle-16{
+    margin-left:  20%;
+    
+}
+
+.rw-rectangle-2{
+    margin-left:  53%;
+    margin-top: 5%;
+    
+}
+
+.rw-rectangle-22{
+    margin-top:  13%;
+    margin-left: 7%;
+    
+}
+
+.rw-rectangle-24{
+    margin-left:  89%;
+    margin-top: -10%;
+    
+}
+
+.rw-rectangle-43{
+    margin-top:  8%;
+    
+}
+
+.rw-rectangle-46{
+    margin-top:  22%;
+    margin-left: 60%;
+    
+}
+
+.rw-rectangle-5{
+    margin-left:  82%;
+    margin-top: 10%;
+    
+}
+
+.rw-rectangle-11{
+    margin-top:  45%;
+    margin-left: 70%;
+    
+}
+
+.rw-rectangle-8{
+    margin-top:  10%;
+    margin-left: 2%;  
+}
+
+.rw-rectangle-18{
+    margin-right: 60%;
+    margin-top: -75%;
+}
+
+.rw-rectangle-3{
+    margin-right:18%;
+    margin-top: 10%;
+   
+}
+
+.rw-rectangle-12{
+    margin-left:16%;
+
+}
+
+.rw-rectangle-59{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.rw-rectangle-57{
+    margin-top: 100%;
+    margin-left: 25%;
+   
+}
+
+.rw-rectangle-26{
+    margin-top: 80%;
+    margin-right:18%;
+}
+
+.rw-rectangle-35{
+
+    margin-right: 9%;
+   
+}
+
+.rw-rectangle-58{
+    margin-top: -5%;
+}
+
+.rw-rectangle-34{
+    margin-right: 15%;
+}
+
+.rw-rectangle-47{
+    margin-right: 15%;
+}
+
+.rw-rectangle-56{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.rw-rectangle-30{
+    margin-left: 14%;
+}
+
+.rw-rectangle-9{
+    margin-left: 45%;
+    margin-top: 22%;
+}
+
+.rw-rectangle-28{
+    margin-top: 18%;
+    margin-left: 80%;
+}
+
+.rw-rectangle-39{
+    margin-left: 53%;
+    margin-top: 19%;
+}
+
+.rw-rectangle-27{
+    margin-left: 33%;
+}
+
+.rw-rectangle-52{
+    margin-left: 30%;
+}
+.rw-rectangle-19{
+    margin-left: 65%;
+}
+
+.rw-rectangle-4{
+    margin-left: 110%;
+    margin-top: -2%;
+}
+
+.rw-rectangle-7{
+    margin-left: 60%;
+}
+
+.rw-rectangle-25{
+    margin-top: 8%;
+    margin-right: 3%;
+    
+}
+
+.rw-rectangle-14{
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.rw-rectangle-41{
+    margin-left: 35%;
+    margin-top: 25%;
+}
+
+.rw-third-panel-river{
+    margin-top: 94%;
+    margin-left: -3%;
+    width: 105%;
+
+}
+
+.rw-rectangle-6{
+    margin-top: -20%;
+    margin-right: 17%;
+}
+
+.rw-rectangle-37{
+    margin-left: 20%;
+}
+
+
+.rw-rectangle-31{
+    margin-top: -50%;
+}
+
+.rw-rectangle-1{
+    margin-top: 25%;
+}
+
+.rw-rectangle-13{
+    margin-right: 43%;
+}
+
+.rw-rectangle-10{
+    margin-top: 20%;
+    margin-right: 30%;
+}
+
+.rw-rectangle-29{
+    margin-top: 64%;
+    margin-right: 29%;
+}
+
+
+ .rw-first-panel-second-div-sub{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+
+ .rw-third-panel-first-div-second-sub-div{
+    display: flex;
+ }
+
+.rw-second-panel-river{
+    width: 105.5%;
+    margin-left: -3%;
+    margin-top: 55%;
+}
+
+.rw-first-panel-river{
+    width: 105.5%;
+    margin-left: -3%;
+    margin-top: -12%;
+
+}
+
+.extra-padding-top{
+    padding-top: 3rem;
+}
+
+.rw-third-panel-first-div{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    padding-top: 2rem;
+    margin-top: -154%;
+    width: 100%;
+}
+
+.rw-third-panel-first-div-sub-div{
+    display: flex;
+    align-items: flex-start;
+}
+
+.rw-third-panel-second-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.rw-wandering-house-sign{
+    width: 100%;
+    margin-top: 90%;
+}
+
+.rectangle-phone{
+    margin: 0%;
+    margin-top: 4%;
+    
+}
+
+.i-know-img-phone{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.rw-phone-sub-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.rw-wandering-house-sign-phone{
+    width: 90%;
+}
+
+.rw-wandering-house-sign-div-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rw-phone-container{
+    background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-5.jpg);
+    background-repeat: round;
+    background-size: 6rem auto;
+}

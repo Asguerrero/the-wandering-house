@@ -70,7 +70,7 @@ getPopUpInfo(id){
   fetch(`https://api.airtable.com/v0/appjPLcxTlXQZZfMa/tblZ9LuBa045zY0lw?fields%5B%5D=Translation&fields%5B%5D=ID&fields%5B%5D=Embroiderer&fields%5B%5D=Main+Text&fields%5B%5D=Translation&fields%5B%5D=Statement&fields%5B%5D=Age&fields%5B%5D=Image+Link+Low+Quality&fields%5B%5D=Audio+Link&filterByFormula=ID%3D${id}`, {
     method: 'GET',
     headers: {
-      'Authorization': 'Bearer keyFiXILZhl7sQLsn'
+      'Authorization': 'Bearer patRF4X7N5tJ6LjhF.7305d5e0fccd093c57f4c2271ca5a00cf89c9124066c9861f0b4e74a1be6c73a'
     }
   })
   .then(response => response.json())

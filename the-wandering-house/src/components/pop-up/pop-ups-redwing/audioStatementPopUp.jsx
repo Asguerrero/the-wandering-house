@@ -1,7 +1,7 @@
 import React from 'react';
-import './pop-up.style.css';
+import '../pop-up.style.css';
 
-export const PopUp = ({ age, statement, translation, embroiderer, main_text, main_font, onClick, id, quilt}) => (
+export const AudioStatementPopUp = ({ age, statement, translation, embroiderer, title, main_font, onClick, id, quilt}) => (
   
   <div className='pop-up-div' onClick={onClick}>
      
@@ -11,9 +11,7 @@ export const PopUp = ({ age, statement, translation, embroiderer, main_text, mai
 
           <img
             alt='rectangle'
-            src={quilt === "northfield" ? 
-            `https://northfield-images-low-quality.s3.amazonaws.com/${id}.jpg` :
-            `https://lanesboro-images-low-quality.s3.amazonaws.com/${id}.jpg`}
+            src={`https://redwing-images-low-quality.s3.amazonaws.com/${id}.jpeg`}
             
             style={{height: '100%'}}
             className='pop-up-img'
@@ -22,22 +20,20 @@ export const PopUp = ({ age, statement, translation, embroiderer, main_text, mai
           </div>
           <p className='embroiderer-name' style={{fontWeight: 'bold', marginTop: '0rem'}}>Embroiderer: {embroiderer}</p>
           <audio controls="controls" style={{width: '90%'}} 
-              src={quilt === "northfield" ? 
-              `https://northfield-audio.s3.amazonaws.com/${id}.wav` :
-              `https://lanesboro-audio.s3.amazonaws.com/${id}.wav`}>
+              src={`https://redwing-audio.s3.amazonaws.com/${id}.mp3` }>
           </audio>
-          <p className='emborider-info-text'><i>{`At the time of the recording in 2019 the speaker was ${age} years old`}</i></p>
-          {console.log(age)}
+          <p className='emborider-info-text'><i>{`At the time of the recording in 2022 the person was ${age == 'teen'? 'a' : age == 'adult' ? 'an' : '' } ${age}`}</i></p>
+          
         </div>
     </div>
 
     <div className='pop-up-container-right'>
-        <div className='main-text' ><h2>{main_text}</h2></div>
+        <div className='main-text' ><h2>{title}</h2></div>
 
         {translation === undefined ?
         null
         :
-        <div className='translation'> <h4>{`${translation}`}</h4> </div>
+        <div className='translation' > <h4>{`${translation}`}</h4> </div>
         }
        
 
@@ -54,4 +50,4 @@ export const PopUp = ({ age, statement, translation, embroiderer, main_text, mai
   </div>
 );
 
-export default PopUp;
+export default AudioStatementPopUp;
