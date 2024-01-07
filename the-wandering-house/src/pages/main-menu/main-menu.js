@@ -66,7 +66,7 @@ class MainMenu extends Component {
         <div className='img-botton-div'>
           <img
               alt='Sergio Picture'
-              src={`https://main-page-images-quilt.s3.amazonaws.com/LCQ-final.jpg`}
+              src={`https://main-page-images-quilt.s3.amazonaws.com/rw-home-page-overview-quilt+(1).png`}
               style={{width: '100%'}}
             />  
           <Link to="redwing"> 
