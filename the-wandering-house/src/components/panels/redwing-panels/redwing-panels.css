@@ -53,12 +53,12 @@
 
 
 .rw-home-icon-div{
-    background-color: #131339;
+    background-color: #16546B;
     display: flex;
 }
 
 .rw-home-icon-div-first-panel{
-    background-color: #131339;
+    background-color: #16546B;
 }
 
 .rw-next-arrow-div{
@@ -66,7 +66,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #131339;
+    background-color: #16546B;
     align-items: center;
 }
 
@@ -75,7 +75,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #131339;
+    background-color: #16546B;
     align-items: center;
 }
 
@@ -87,6 +87,7 @@
     /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-background--2.jpg'); */
     background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-5.jpg);
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-10.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-12.jpg); */
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-7.jpg); */
     background-repeat: round;
     background-size: 9rem auto;
