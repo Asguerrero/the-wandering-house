@@ -53,12 +53,12 @@
 
 
 .rw-home-icon-div{
-    background-color: #16546B;
+    background-color: #003157;
     display: flex;
 }
 
 .rw-home-icon-div-first-panel{
-    background-color: #16546B;
+    background-color: #003157;
 }
 
 .rw-next-arrow-div{
@@ -66,7 +66,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #16546B;
+    background-color: #003157;
     align-items: center;
 }
 
@@ -75,20 +75,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #16546B;
+    background-color: #003157;
     align-items: center;
 }
 
 
 .rw-background{
+    background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-17.jpg);
+   
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-2.jpg); */
     /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-backgorund-3.jpg'); */
     /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-background-4.jpg'); */
     /* background-image: url('https://main-page-images-quilt.s3.amazonaws.com/rw-background--2.jpg'); */
-    background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-5.jpg);
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-5.jpg); */
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-10.jpg); */
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-12.jpg); */
     /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/background-7.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-14.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-backgorund-13.JPG); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-15.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-20.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-18.jpg); */
+    /* background-image: url(https://main-page-images-quilt.s3.amazonaws.com/rw-background-21.jpg); */
     background-repeat: round;
     background-size: 9rem auto;
     padding: 1rem;
