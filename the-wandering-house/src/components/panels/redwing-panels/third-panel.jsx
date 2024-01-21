@@ -67,7 +67,7 @@ export const ThirdPanel = ({activePopUp, nextPanel, previousPanel}) => (
                     </div>
 
                     <div>
-                        <img className='rw-wandering-house-sign' src='https://main-page-images-quilt.s3.amazonaws.com/wandering-house-sign-.png'></img>
+                        <img className='rw-wandering-house-sign' src='https://main-page-images-quilt.s3.amazonaws.com/wandering-house-sign.jpg'></img>
                     </div>
                     
                 </div>

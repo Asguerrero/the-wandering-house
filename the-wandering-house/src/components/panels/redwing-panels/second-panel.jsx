@@ -51,7 +51,7 @@ export const SecondPanel = ({activePopUp, nextPanel, previousPanel}) => (
             
                 <div className="rw-second-panel-second-div">
                     <div>
-                        <Rectangle key={18} height={65} onClick={() => activePopUp(18)}  id={18}  quilt={"redwing"} />
+                        <Rectangle key={18} height={55} onClick={() => activePopUp(18)}  id={18}  quilt={"redwing"} />
                         <Rectangle key={3} height={60} onClick={() => activePopUp(3)}  id={3}  quilt={"redwing"} />
                         <Rectangle key={12} height={60} onClick={() => activePopUp(12)}  id={12}  quilt={"redwing"} />
                         <Rectangle key={59} height={95} onClick={() => activePopUp(59)}  id={59}  quilt={"redwing"} />

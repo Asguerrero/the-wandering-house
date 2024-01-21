@@ -16,7 +16,7 @@ export const FirstPanel = ({activePopUp, nextPanel}) => (
         <div className='rw-quilt-container'>
             <div className='rw-background'> 
                 <div className='rw-first-panel-first-div'>
-                    <img className='i-know-img' src='https://main-page-images-quilt.s3.amazonaws.com/rw-i-know-home-sign.jpg'></img>
+                    <img className='i-know-img' src='https://main-page-images-quilt.s3.amazonaws.com/rw-i-know-home-sign.png'></img>
                     <div className='flex'>
                         <Rectangle key={6} height={110} onClick={() => activePopUp(6)}  id={6}  quilt={"redwing"} />
                         <Rectangle key={37} height={127} onClick={() => activePopUp(37)}  id={37}  quilt={"redwing"} />
