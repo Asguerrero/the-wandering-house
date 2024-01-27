@@ -28,7 +28,7 @@ class RedWingQuilt extends Component {
           popUpImage: [20,25,29,37, 18],
           popUpImagePersonalized: [2,3,13,14,23,53],
           popUpAudioStatement: [9,26,32,55,59,60],
-          popUpImageStatement: [12, 36],
+          popUpImageStatement: [12, 36, 20],
           rectangleArray: [1,6,5,4,7,8,22,11,15,16,17,18,19, 21,10,41,27,28,30,33,31,34,35,38,39,49,42,44,45, 46,47,48,
             50,51,53,54, 56, 23, 55, 2, 3,13,14,20,25,57,29,58,9, 26, 32, 37, 59, 60, 12, 36],
           rectanglesWithoutAudio : [20,25,29,37, 18,2,3,13,14,23,53, 12, 36]
